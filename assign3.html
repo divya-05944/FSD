@@ -1,0 +1,168 @@
+ASSIGNMENT-3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, section, article, footer {
+      padding: 20px;
+      margin: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    video, audio {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px 0;
+    }
+    @media (max-width: 600px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Divyashree, a passionate and creative web developer with a strong interest in building responsive and user-friendly websites. I specialize in front-end development, working with HTML, CSS, and JavaScript to bring designs to life. With a solid understanding of modern web technologies and frameworks like React, I'm dedicated to writing clean, maintainable code and continuously learning new skills..</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am passionate about technology, design, and building responsive websites.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Project 1: Restaurant Menu Page</h3>
+        <ul>
+          <li>Used HTML5 and CSS3</li>
+          <li>An HTML-based menu layout with categories like Appetizers, Mains, and Desserts.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="media">
+      <h2>Introduction Video</h2>
+      <video controls>
+        <source src="c:\Users\User\Downloads\web development video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Background Music</h3>
+      <audio controls autoplay loop>
+        <source src="c:\Users\User\Downloads\smooth-intro-72591.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: divyashreein2000@gmail.com</p>
+    <p>&copy; 2025 Divyashree</p>
+  </footer>
+
+</body>
+</html>
+
+ASSIGNMENT- 4
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Contact Form</title>
+</head>
+<body>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob">
+      <br><br>
+
+      <label for="satisfaction">Satisfaction Level (1–10):</label>
+      <input type="range" id="satisfaction" name="satisfaction" min="1" max="10">
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+</body>
+</html>
+ASSIGNMENT-5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Page</title>
+</head>
+<body>
+
+  <article>
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+
+      <label for="feedback">Your Feedback:</label><br>
+      <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+      <br><br>
+
+      <input type="submit" value="Submit Feedback">
+    </form>
+  </article>
+
+  <aside>
+    <h3>What is Web Storage?</h3>
+    <p>
+      <strong>localStorage</strong> and <strong>sessionStorage</strong> are features of Web Storage in HTML5.  
+      They allow websites to store data on the user's browser without using cookies.
+    </p>
+    <p>
+      <strong>localStorage</strong> stores data with no expiration time. It remains even after the browser is closed and reopened.  
+      It is useful for saving user preferences or settings.
+    </p>
+    <p>
+      <strong>sessionStorage</strong> stores data only for the duration of a page session.  
+      It is cleared when the browser tab is closed.  
+      It's useful for temporary data like form progress.
+    </p>
+  </aside>
+
+</body>
+</html>
