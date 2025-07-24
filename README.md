@@ -1,9 +1,15 @@
-# Assignment 9
+# crud-demo
 
-This is an javascript module system assignment
-
-Use the below command to run the app:
+To install dependencies:
 
 ```bash
-npm run dev
+bun install
 ```
+
+To run:
+
+```bash
+bun run index.ts
+```
+
+This project was created using `bun init` in bun v1.2.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
