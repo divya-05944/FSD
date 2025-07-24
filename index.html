@@ -4,32 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./resume.css">
-    <title>Something</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Assignment-4</title>
 </head>
 
 <body>
     <header>
-        <h3 class="name">Rajesh J</h3>
+        <h3> Assignment 4: Smart Contact Form (New Form Controls + Semantic) </h3>
     </header>
-
-    <section id="skills">
-        <div class="skill">
-            <h3>Skills</h3>
-            <hr>
-            <ul class="skills">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Go</li>
-                <li>Bash</li>
-                <li>Powershell</li>
-                <li>Docker</li>
-            </ul>
-        </div>
-    </section>
-    <section id="about">
+    <section class="center">
+        <form action="submit" method="get">
+            <label>Name</label>
+            <input type="text" />
+            <label>Email</label>
+            <input type="email" />
+            <label>Date of Birth</label>
+            <input type="date" />
+            <label>Satisfaction Level (1–10)</label>
+            <div class="range">
+                <p>1</p> <input type="range" />
+                <p>10</p>
+            </div>
+            <button>Submit</button>
+        </form>
     </section>
 </body>
 
