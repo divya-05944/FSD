@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Assignment-4</title>
+    <title>Assignment-5</title>
 </head>
 
 <body>
-    <header>
-        <h3> Assignment 4: Smart Contact Form (New Form Controls + Semantic) </h3>
-    </header>
-    <section class="center">
-        <form action="submit" method="get">
-            <label>Name</label>
-            <input type="text" />
-            <label>Email</label>
-            <input type="email" />
-            <label>Date of Birth</label>
-            <input type="date" />
-            <label>Satisfaction Level (1–10)</label>
-            <div class="range">
-                <p>1</p> <input type="range" />
-                <p>10</p>
-            </div>
-            <button>Submit</button>
-        </form>
-    </section>
+    <main>
+        <header>
+            <h3>
+                A form that takes user's name and feedback
+            </h3>
+        </header>
+        <article class="center">
+            <form id="feedbackform">
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+                <label for="feedback">Feedback</label>
+                <textarea name="feedback" id="feedback" rows="4" cols="10"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </article>
+        <aside id="saved" class="center"></aside>
+    </main>
+    <script src="./script.js"></script>
 </body>
 
 </html>
