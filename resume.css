@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    color: aquamarine;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p,
+span,
+li,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 4rem 0;
+}
+
+.skill hr {
+    color: aqua;
+    padding
+}
+
+li {
+    background: aqua;
+    color: #111111;
+    padding: 1.2rem 3rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
